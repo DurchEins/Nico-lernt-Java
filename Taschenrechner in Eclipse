@@ -1,0 +1,26 @@
+package de.hwt.java;
+
+import java.util.Scanner;
+
+public class HelloWorldTuT {
+    	
+	public static void main(String[] args) {
+
+    double Tr1, Tr2, TrE;
+    Scanner Tr = new Scanner(System.in);
+
+System.out.println("Hier ist mein erster Taschenrechner!");
+System.out.println("");
+System.out.println("Die erste Zahl bitte.");
+    Tr1=Tr.nextDouble();
+System.out.println("Die zweite Zahl bitte.");
+    Tr2=Tr.nextDouble();
+  TrE=Tr1+Tr2;
+System.out.println("Das Ergebnis der Addition ist: " + TrE);
+  TrE=Tr1-Tr2;
+System.out.println("Das Ergebnis der Subtration ist: " + TrE);
+  TrE=Tr1*Tr2;
+System.out.println("Das Ergebnis der Multiplikation ist: " + TrE);
+  TrE=Tr1/Tr2;
+System.out.println("Das Ergebnis der Division ist: " + TrE);
+    }
